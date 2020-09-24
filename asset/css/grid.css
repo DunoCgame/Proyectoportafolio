@@ -1,0 +1,29 @@
+.container{
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-template-rows:repeat(auto, 1fr);
+	grid-column-gap:0px;
+	grid-row-gap: 0px;
+	grid-template-areas: 
+					'Header Header Header'
+					/* 'Main  Main Sidebar' */
+					'Main  Main Main'
+					'Footer Footer Footer';
+	
+}
+.header{
+	grid-area:Header;
+}
+
+.main{
+	grid-area:Main;
+	
+}
+
+.sidebar{
+	grid-area:Sidebar;
+}
+
+.footer{
+	grid-area:Footer;
+}

@@ -1,0 +1,222 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.body, .containner{
+	background:white;
+}
+
+.header{
+		background:black;
+
+		
+		display:flex;
+		flex-direction:row;
+		/* align-items:baseline; */
+		justify-content:space-between;
+		
+		padding:5px;
+}
+
+.containner-logo{
+	background:red;
+	width:108px;
+	height:140px;
+	/* margin-bottom:px; */
+	
+}
+
+.containner-logo>img{
+	width:100%;
+	height:100%;
+	border:0.5px solid white;
+	object-fit:fill;
+	
+	
+}
+
+.containner-head{
+	display:flex;
+	flex-direction:row;
+	
+}
+.containner-title{
+	/* background:green; */
+	margin-left:10px;
+}
+.title-web{
+	color:white;
+	margin-bottom:0px;
+	margin-top:45px;
+	
+}
+.subTitle-web{
+	color:white;
+	font-size:20px;
+	
+}
+
+.navbar{ 
+/* background:yellow; */
+}
+.navbar>ul{ 	margin-top:60px; display:flex; flex-direction:row; }
+.navbar>ul>li{ margin-right:30px; list-style:none;}
+.navbar>ul>li>a{ text-decoration:none; font-size:24px; color:white;
+
+
+		
+ }
+
+
+.navbar>ul>li>.CV{ text-decoration:none; font-size:24px; color:white;    border-bottom:2px solid white;}
+
+.navbar>ul>li>.CV:hover{ 
+
+	text-shadow: 0 0 5px white,
+		0 0 10px white,
+		0 0 20px white;
+
+
+}
+
+
+.navbar>ul>li>.icon-linkedin2{ background:#003366; text-decoration:none; font-size:24px; color:white;   padding:10px;  border-radius:10px;}
+
+.navbar>ul>li>.icon-linkedin2:hover{ 
+
+	box-shadow: 0 0 5px #003366,
+		0 0 10px white,
+		0 0 20px white;
+}
+
+.navbar>ul>li>.icon-github{background:grey; text-decoration:none; font-size:24px; color:white;  padding:10px; border-radius:40px;}
+.navbar>ul>li>.icon-github:hover{  
+
+
+	box-shadow: 0 0 5px white,
+		0 0 10px white,
+		0 0 20px white;
+ }
+
+
+.main{
+	background:grey;
+	
+	
+}
+.Estudios{
+	background:blue;
+	
+}
+.Section-Proyectos{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+
+}
+.article{
+	flex-grow:1;
+	margin:2px;
+	padding:3px;
+	width:49%;
+	/* margin-bottom:3px; */
+	background:white;
+	position:relative;
+}
+
+.img-containner{
+	width:100%;
+	
+	
+}
+.img{
+	width:100%;
+	object-fit:fill;
+}
+.titulos-containner{ position:absolute; left: 20;
+	top:70%;
+	z-index: 2;}
+.titulos-containner>.title-article{
+	color:white;
+}
+.titulos-containner>p{
+	color:white;
+}
+
+.footer-article{}
+
+/***********CONTACTOS*****************/
+.section-Contacto{   
+	/* background-color: #f2f2f2; */
+	/* background-color:#b3d9ff; */
+	background-color:#000d1a;
+	padding:20px;
+}
+
+.label-form{
+	margin-bottom:10px;
+	color:white;
+	font-weight:bold;
+}
+
+input[type=text]{
+	width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+}
+
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor:pointer;
+  with:200px;
+  border:0.2px solid white;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color:blue;
+}
+
+
+/*****************/
+.sidebar{
+	/* background-color: #333333; */
+	background-color:#1a1a1a;
+	padding:10px;
+	
+	
+	}
+.sidebar>h2{color:white; margin-bottom:10px; margin-top:10px; text-align:center;}
+.sidebar>h3, h4{color:white; margin-bottom:10px; margin-top:10px; font-size:20px; }
+.sidebar>p{color:white; font-size:18px;}
+.sidebar>.etiqueta-estudios{color:white;}
+
+
+.footer{
+	background:black;
+	padding:20px;
+}
+.footer>p{
+	color:white;
+	text-align:center;
+}
