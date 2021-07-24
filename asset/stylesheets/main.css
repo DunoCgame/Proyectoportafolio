@@ -1,0 +1,336 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.header{
+	background:#003366;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:baseline;
+	padding:20px;
+
+}
+
+.header_Mytitle{
+	color:white;
+	font-size:30px;
+}
+
+.header_navbar{
+	/* margin-right:10px; */
+}
+
+.link, .icon{
+	
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+	margin-left:13px;
+font-weight:bold;
+}
+
+.Menu-active-link{
+	border-bottom:1px solid white;
+}
+
+
+/********************My info**************************/
+.Section-Myinfo{
+	
+	padding:10px;	
+	background-image:url("../images/cyber.jpg");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+
+}
+
+.Myinfo_Info{
+	text-align:center;
+	color:white;
+	
+	display:flex;
+	flex-direction:row;
+}
+
+.MyImage{
+	width:100px;
+	height:150px;
+	border:1px solid white;
+	border-radius:10px;
+}
+
+.Mydata{
+	margin:0px;
+	
+}
+
+.Myinfo_Info>.area1{
+	/* width:300px; */
+
+}
+
+.Myinfo_Info>.area2{
+	/* width:auto; */
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+.Myinfo_Info>.area2>p{
+	color:white;
+	text-align:justify;
+	
+}
+
+
+.ButtonInfo{
+  background:rgba(0,0,0,0);
+  color: white;
+  border: 2px solid white; /* Green */
+  border-radius:10px;
+  padding:10px;
+  margin:10px;
+}
+
+.ButtonInfo>a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	
+}
+
+
+	@media screen and (max-width: 600px) {
+
+.header{
+
+	background:#003366;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+	padding:10px;
+	
+	}
+	.header>.header_Mytitle{
+	
+		margin-bottom:25px;
+	}
+	
+	.link, .icon{
+	
+	color:white;
+	text-decoration:none;
+	font-size:16px;
+	margin-left:13px;
+font-weight:bold;
+}
+
+	Section-Myinfo{
+
+		padding:10px;	
+		background-image:url("../images/UndoRedo.png");
+		background-color: #cccccc;
+		background-repeat: no-repeat;
+	
+		
+	}
+	
+	.Myinfo_Info{
+		text-align:center;
+		color:white;
+	
+		display:flex;
+		flex-direction:column;
+	}
+
+	.Myinfo_Info>.area1{
+	
+
+		padding:20px;
+	
+	}
+
+	.Myinfo_Info>.area2{
+
+	
+		padding:20px;
+	}
+
+
+}
+
+/**********************************************/
+.main{
+	
+}
+
+.TitleSection {
+    /* background: blue; */
+	color:white;
+	padding:9px;
+	text-align:center;
+}
+
+/***********************************/
+.section-proyectos{
+	padding:5px;
+	background:#063948;
+
+}
+
+.proyectos_articles{
+	background:white;
+	padding:10px;
+
+/* flex-grow:1; */
+	/* width:100%; */
+	/* height:auto; */
+}
+
+/* .proyectos_articles:nth-child(odd) { */
+  /* background:yellow; */
+  
+/* } */
+
+.images-containner{
+	width:100%;	 
+			
+
+}
+.images-containner>.images{
+	width:100%;	
+		max-height: 260px;
+	
+}
+
+.proyectos_articles>p{
+	
+	text-align:justify;
+}
+/******************************************/
+/******************************************/
+.section-Contact{
+	background:rgb(51, 102, 153);
+   /* background: linear-gradient(to bottom, #3366cc 0%, #000066 100%); */
+    /* background: linear-gradient(to bottom, #0099cc 0%, #003366 100%); */
+
+	padding:20px;
+	
+
+}
+
+.Contact{
+
+	display: flex;  
+	flex-wrap: wrap;
+	flex-direction:row;
+	justify-content:center;
+	padding:20px;
+	
+
+}
+
+.Contact>.items-Contact{
+	
+	
+	background:white;
+	
+	border:1px solid #8c8c8c;
+	
+
+	font-size:50px;
+	text-align:center;
+	
+	border-radius:15px;
+	margin:20px;
+	padding:5px;
+	
+}
+
+.Contact>.items-Contact:hover{
+	
+/* -webkit-box-shadow: 0px 0px 23px 19px rgba(255,255,255,1); */
+/* -moz-box-shadow: 0px 0px 23px 19px rgba(255,255,255,1); */
+/* box-shadow: 0px 0px 23px 19px rgba(255,255,255,1); */
+
+
+-webkit-box-shadow: 0px 0px 36px 19px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 36px 19px rgba(255,255,255,1);
+box-shadow: 0px 0px 36px 19px rgba(255,255,255,1);
+
+
+}
+
+
+.section-Skill{
+	/* background:rgb(51, 102, 153); */
+   /* background: linear-gradient(to bottom, #3366cc 0%, #000066 100%); */
+    background: linear-gradient(to bottom, #0099cc 0%, #003366 100%);
+
+	padding:20px;
+	
+
+}
+
+.Skill{
+
+	display: flex;  
+	flex-wrap: wrap;
+	flex-direction:row;
+	justify-content:center;
+	padding:20px;
+	
+
+}
+
+.Skill>.items-skill{
+	
+	
+	background:white;
+	
+	border:5px solid #8c8c8c;
+
+	font-size:70px;
+	text-align:center;
+	
+	border-radius:15px;
+	margin:20px;
+	padding:5px;
+	
+}
+
+.Skill>.items-skill:hover{
+	
+/* -webkit-box-shadow: 0px 0px 23px 19px rgba(255,255,255,1); */
+/* -moz-box-shadow: 0px 0px 23px 19px rgba(255,255,255,1); */
+/* box-shadow: 0px 0px 23px 19px rgba(255,255,255,1); */
+
+
+-webkit-box-shadow: 0px 0px 36px 19px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 36px 19px rgba(255,255,255,1);
+box-shadow: 0px 0px 36px 19px rgba(255,255,255,1);
+
+
+}
+/******************************************/
+
+.footer{
+	background:#003366;
+	padding:20px;
+	color:white;
+	text-align:center;
+
+	
+}
+
+
+
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
+/* https://www.cssmatic.com/box-shadow */

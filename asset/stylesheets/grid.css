@@ -1,0 +1,49 @@
+.body{
+	/* display:flex; */
+	/* flex-direction:column; */
+}
+
+/* .header{ */
+	  /* background:blue; */
+	  /* height:5vh; */
+/* } */
+
+/* .main{ */
+	/* height:80vh; */
+	/* background:green; */
+/* } */
+
+/* .footer{ */
+	/* height:5vh; */
+	/* background:red; */
+
+/* } */
+
+.proyectos{
+
+	display:grid;
+	grid-auto-flow:dense;
+	grid-auto-rows:auto;
+	/* grid-auto-rows:26rem; */
+	grid-template-columns:repeat(auto-fill,minmax(min(100%,25rem),1fr));
+	/* grid-template-columns:repeat(auto-fill,minmax(25rem,1fr));  */
+	/* grid-template-columns:repeat(auto-fit,minmax(25rem,1fr));  */
+	grid-column-gap:6px;
+	grid-row-gap:6px;
+	
+	
+
+}
+
+
+
+.Skill{
+	/* display: grid; */
+	/* grid-template-columns: repeat(4, 1fr); */
+	/* grid-template-rows: repeat(5, 1fr); */
+	/* grid-column-gap: 0px; */
+	/* grid-row-gap: 0px; */
+}
+
+
+
