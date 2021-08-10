@@ -55,11 +55,15 @@ let Datapost = [
 	},
 	{
 		Title:"PortafolioWeb",
-		Link:"https://github.com/DunoCgame/Failure_to_Move",
+		Link:"https://github.com/DunoCgame/Proyectoportafolio/",
 		Image:"asset/images//portaolio.jpg",
 		Description:"Protafolio web de proyectos",
 	}
 ]
+
+
+
+// https://dunocgame.github.io/Proyectoportafolio/
 
 // http://github.com/DunoCgame?tab=repositories
 
@@ -139,15 +143,18 @@ function Generante_post(info){
 			//titulos
 					let h2 = document.createElement('h2');
 						h2.className="Title-Article";	
-					document.getElementsByClassName('Title-Containner')[i].appendChild(h2);;
-					
+						document.getElementsByClassName('Title-Containner')[i].appendChild(h2);;
+				//link
+						let a = document.createElement('a');
+						a.className="Link";	
+						a.href=info[i].Link;	
+						document.getElementsByClassName('Title-Article')[i].appendChild(a);;
+						
+						var Titlepost = document.createTextNode(info[i].Title);     // git_url  url Create a text node
+								a.appendChild(Titlepost); 
 	/************descripcion*****/
 	
 				
-				var Titlepost = document.createTextNode(info[i].Title);     // git_url  url Create a text node
-					h2.appendChild(Titlepost); 
-								
-					
 					let p = document.createElement('p');
 					p.id="Title-Article";
 					p.className="title-article";	
