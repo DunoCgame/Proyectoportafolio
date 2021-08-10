@@ -155,8 +155,6 @@ function Generante_post(info){
 	/************descripcion*****/
 	
 				
-
-
 					let p = document.createElement('p');
 					p.id="Title-Article";
 					p.className="title-article";	
