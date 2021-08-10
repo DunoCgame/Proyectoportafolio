@@ -29,6 +29,7 @@
 	font-size:18px;
 	margin-left:13px;
 font-weight:bold;
+text-align:center;
 }
 
 .Menu-active-link{
@@ -182,6 +183,12 @@ font-weight:bold;
 	padding:5px;
 	background:#063948;
 
+}
+
+.Title-Article>.Link{
+	color:black;
+	text-decoration:none;
+	
 }
 
 .proyectos_articles{
